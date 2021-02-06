@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowers - интернет магазин цветов</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 mb-3 mb-md-0">
+                <a href="#"><img src="img/logo.png" alt="Flowers" class="header-logo"></a>
+            </div>
+            <!-- /.col-lg-3 -->
+            <div class="col-lg-6 col-md-4 mb-3 mb-md-0">
+                    <span class="description">Интернет-магазин <br>
+                        цветов с доставкой <br>
+                        по всей <span class="text-color-red">России</span></span>
+            </div>
+            <!-- /.col-lg-6 -->
+            <div class="header-contacts col-lg-3 col-md-5">
+                <a href="tel:+78006548745" class="header-phone">8 (800) 654-87-45</a>
+                <span class="header-info">Звонок по России бесплатный</span>
+                <a data-fancybox data-src="#modal" href="javascript:;" class="callback">Заказать звонок</a>
+            </div>
+            <!-- /.col-lg-3 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</header>
+
+<section class="hero">
+    <div class="container">
+        <h1 class="hero-title">
+            Эксклюзивные цветы и букеты
+            flowers Shop</h1>
+        <p class="hero-description">первая в россии эксклюзивная доставка цветов
+            для людей, которые ценят <span class="unic">уникальность</span></p>
+        <!-- Слайдер с цветами -->
+        <div class="swiper-container flowers-slider">
+            <!-- Обертка слайдов -->
+            <div class="swiper-wrapper">
+                <!-- Слайды -->
+                <div class="swiper-slide"><img src="img/flowers/flower-1.png" alt="" class="slide-image"></div>
+                <div class="swiper-slide"><img src="img/flowers/flower-2.png" alt="" class="slide-image"></div>
+                <div class="swiper-slide"><img src="img/flowers/flower-3.png" alt="" class="slide-image"></div>
+                <div class="swiper-slide"><img src="img/flowers/flower-4.png" alt="" class="slide-image"></div>
+                <div class="swiper-slide"><img src="img/flowers/flower-5.png" alt="" class="slide-image"></div>
+                <div class="swiper-slide"><img src="img/flowers/flower-6.png" alt="" class="slide-image"></div>
+                <div class="swiper-slide"><img src="img/flowers/flower-3.png" alt="" class="slide-image"></div>
+            </div>
+
+
+            <!-- Стрелки слайдера -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+
+        </div>
+        <!-- ./swiper-container -->
+        <span class="hero-cta">Закажите эксклюзивный букет со <span class="unic">скидкой 10%</span> </span>
+        <a data-fancybox data-src="#modal" href="javascript:;" class="button">Заказать букет</a>
+    </div>
+    <!-- /.container -->
+</section>
+
+
+<section class="reviews">
+    <div class="container">
+        <h2 class="section-title">Мы делаем лучшие букеты</h2>
+        <!-- Слайдер отзывов -->
+        <div class="swiper-container reviews-slider">
+            <!-- Обёртка слайдов -->
+            <div class="swiper-wrapper">
+                <!-- Слайды -->
+                <div class="swiper-slide review-slide d-flex align-items-center flex-column flex-md-row">
+                    <div class="review-image review-image-1 d-flex  align-items-center justify-content-center flex-column">
+                        <span class="review-name">Алиса Иванова</span>
+                        <span class="review-city">г. Ноябрьск</span>
+                    </div>
+                    <div class="review-text">
+                        <p class="review">
+                            Я очень довольна таким отношением к делу. Обслужили просто превосходно, я заказывала по
+                            телефону — так подробно мне всё объяснили, помогли выбрать замечательный букет, и привезли
+                            всё вовремя, букет был очень красивый, он очень понравился, спасибо вам огромное.
+                        </p>
+                        <a href="javascript:;" id="review-1" class="review-link">Посмотреть фотографии букета</a>
+                    </div>
+
+                </div>
+                <div class="swiper-slide review-slide d-flex align-items-center flex-column flex-md-row">
+                    <div class="review-image review-image-2 d-flex align-items-center justify-content-center flex-column">
+                        <span class="review-name">Анна Архипова</span>
+                        <span class="review-city">г. Москва</span>
+                    </div>
+                    <div class="review-text">
+                        <p class="review">
+                            Большой выбор цветов. Цены не завышены. Все цветы очень свежие. Флорист создал композицию, которая мне особенно подходила. Именинница в восторге. Я тоже. Спасибо большое!!!
+                        </p>
+                        <a href="#" class="review-link">Посмотреть фотографии букета</a>
+                    </div>
+
+                </div>
+                <!-- ./swiper-slide -->
+            </div>
+            <!-- ./swiper-wrapper -->
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+        <!-- ./swiper-container -->
+    </div>
+    <!-- /.container -->
+</section>
+
+<section class="advantages">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div class="advantages-wrapper">
+                    <img src="img/advantages/advantages-1.png" alt="Только прямые поставки цветов из Голландии"
+                         class="advantages-image">
+                </div>
+                <h3 class="advantages-title">Только прямые <br>
+                    поставки цветов <br>
+                    из Голландии</h3>
+            </div>
+            <!-- /.col -->
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div class="advantages-wrapper">
+                    <img src="img/advantages/advantages-2.png" alt="Наши флористы имеют 10 летний стаж работы"
+                         class="advantages-image">
+                </div>
+                <h3 class="advantages-title">Наши флористы <br>
+                    имеют 10 летний <br>
+                    стаж работы</h3>
+            </div>
+            <!-- /.col -->
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div class="advantages-wrapper">
+                    <img src="img/advantages/advantages-3.png" alt="Все цветы вручную отбираются нашими флористами"
+                         class="advantages-image">
+                </div>
+                <h3 class="advantages-title">Все цветы<br>
+                    вручную отбираются<br>
+                    нашими флористами</h3>
+            </div>
+            <!-- /.col -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+
+<section class="goods">
+    <div class="container">
+        <h2 class="section-title">Собери свой букет <span class="text-red">прямо сейчас!</span></h2>
+        <p class="section-description">
+            Выберите желаемые цветы и наши флористы их оформят и доставят лично в руки!
+        </p>
+
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="card">
+                    <img src="img/flowers/flower-1.png" alt="rose" class="card-image">
+                    <h3 class="card-title">Розы</h3>
+                    <span class="card-label">Выберите цвет:</span>
+
+                    <div class="colors d-flex align-items-center justify-content-between">
+                        <label class="color-label rose-white" for="rose-white"></label>
+                        <input class="color-input" type="radio" name="color" id="rose-white" value="rose-white">
+
+                        <label class="color-label rose-beige" for="rose-beige"></label>
+                        <input class="color-input" type="radio" name="color" id="rose-beige" value="rose-beige">
+
+                        <label class="color-label rose-pink" for="rose-pink"></label>
+                        <input class="color-input" type="radio" name="color" id="rose-pink" value="rose-pink">
+
+                        <label class="color-label rose-red" for="rose-red"></label>
+                        <input class="color-input" type="radio" name="color" id="rose-red" value="rose-red">
+
+                        <label class="color-label rose-blue" for="rose-blue"></label>
+                        <input class="color-input" type="radio" name="color" id="rose-blue" value="rose-blue">
+
+
+                    </div>
+                    <!-- /.colors -->
+
+                    <span class="card-label">Количество:</span>
+
+                    <div class="counter-group d-flex justify-content-center align-items-center counter-1">
+                        <button class="counter-button" id="minus-1">-</button>
+                        <input type="text" class="counter-input" value="1">
+                        <button class="counter-button">+</button>
+                    </div>
+                    <!-- /.counter-group -->
+
+                    <button class="button card-button">В корзину</button>
+                </div>
+            </div>
+            <!-- /.col-md-3 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card">
+                    <img src="img/flowers/flower-2.png" alt="lilium" class="card-image">
+                    <h3 class="card-title">Лилии</h3>
+                    <span class="card-label">Выберите цвет:</span>
+
+                    <div class="colors d-flex align-items-center justify-content-between">
+                        <label class="color-label lilium-white" for="lilium-white"></label>
+                        <input class="color-input" type="radio" name="color" id="lilium-white" value="lilium-white">
+
+                        <label class="color-label lilium-beige" for="lilium-beige"></label>
+                        <input class="color-input" type="radio" name="color" id="lilium-beige" value="lilium-beige">
+
+                        <label class="color-label lilium-pink" for="lilium-pink"></label>
+                        <input class="color-input" type="radio" name="color" id="lilium-pink" value="lilium-pink">
+
+                        <label class="color-label lilium-red" for="lilium-red"></label>
+                        <input class="color-input" type="radio" name="color" id="lilium-red" value="lilium-red">
+
+                        <label class="color-label lilium-blue" for="lilium-blue"></label>
+                        <input class="color-input" type="radio" name="color" id="lilium-blue" value="lilium-blue">
+
+
+                    </div>
+                    <!-- /.colors -->
+
+                    <span class="card-label">Количество:</span>
+
+                    <div class="counter-group d-flex justify-content-center align-items-center">
+                        <button class="counter-button">-</button>
+                        <label>
+                            <input type="text" class="counter-input" value="1"></input>
+                        </label>
+
+                        <button class="counter-button">+</button>
+                    </div>
+                    <!-- /.counter-group -->
+
+                    <button class="button card-button">В корзину</button>
+                </div>
+            </div>
+            <!-- /.col-md-3 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card">
+                    <img src="img/flowers/flower-3.png" alt="astras" class="card-image">
+                    <h3 class="card-title">Астры</h3>
+                    <span class="card-label">Выберите цвет:</span>
+
+                    <div class="colors d-flex align-items-center justify-content-between">
+                        <label class="color-label astras-white" for="astras-white"></label>
+                        <input class="color-input" type="radio" name="color" id="astras-white" value="astras-white">
+
+                        <label class="color-label astras-beige" for="astras-beige"></label>
+                        <input class="color-input" type="radio" name="color" id="astras-beige" value="astras-beige">
+
+                        <label class="color-label astras-pink" for="astras-pink"></label>
+                        <input class="color-input" type="radio" name="color" id="astras-pink" value="astras-pink">
+
+                        <label class="color-label astras-red" for="astras-red"></label>
+                        <input class="color-input" type="radio" name="color" id="astras-red" value="astras-red">
+
+                        <label class="color-label astras-blue" for="astras-blue"></label>
+                        <input class="color-input" type="radio" name="color" id="astras-blue" value="astras-blue">
+
+
+                    </div>
+                    <!-- /.colors -->
+
+                    <span class="card-label">Количество:</span>
+
+                    <div class="counter-group d-flex justify-content-center align-items-center">
+                        <button class="counter-button">-</button>
+                        <input type="text" class="counter-input" value="1"></input>
+                        <button class="counter-button">+</button>
+                    </div>
+                    <!-- /.counter-group -->
+
+                    <button class="button card-button">В корзину</button>
+                </div>
+            </div>
+            <!-- /.col-md-3 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card">
+                    <img src="img/flowers/flower-4.png" alt="lilac" class="card-image">
+                    <h3 class="card-title">Сирень</h3>
+                    <span class="card-label">Выберите цвет:</span>
+
+                    <div class="colors d-flex align-items-center justify-content-between">
+                        <label class="color-label lilac-white" for="lilac-white"></label>
+                        <input class="color-input" type="radio" name="color" id="lilac-white" value="lilac-white">
+
+                        <label class="color-label lilac-beige" for="lilac-beige"></label>
+                        <input class="color-input" type="radio" name="color" id="lilac-beige" value="lilac-beige">
+
+                        <label class="color-label lilac-pink" for="lilac-pink"></label>
+                        <input class="color-input" type="radio" name="color" id="lilac-pink" value="lilac-pink">
+
+                        <label class="color-label lilac-red" for="lilac-red"></label>
+                        <input class="color-input" type="radio" name="color" id="lilac-red" value="lilac-red">
+
+                        <label class="color-label lilac-blue" for="lilac-blue"></label>
+                        <input class="color-input" type="radio" name="color" id="lilac-blue" value="lilac-blue">
+
+
+                    </div>
+                    <!-- /.colors -->
+
+                    <span class="card-label">Количество:</span>
+
+                    <div class="counter-group d-flex justify-content-center align-items-center">
+                        <button class="counter-button">-</button>
+                        <input type="text" class="counter-input" value="1"></input>
+                        <button class="counter-button">+</button>
+                    </div>
+                    <!-- /.counter-group -->
+
+                    <button class="button card-button">В корзину</button>
+                </div>
+            </div>
+            <!-- /.col-md-3 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card">
+                    <img src="img/flowers/flower-5.png" alt="orchid" class="card-image">
+                    <h3 class="card-title">Орхидеи</h3>
+                    <span class="card-label">Выберите цвет:</span>
+
+                    <div class="colors d-flex align-items-center justify-content-between">
+                        <label class="color-label orchid-white" for="orchid-white"></label>
+                        <input class="color-input" type="radio" name="color" id="orchid-white" value="orchid-white">
+
+                        <label class="color-label orchid-beige" for="orchid-beige"></label>
+                        <input class="color-input" type="radio" name="color" id="orchid-beige" value="orchid-beige">
+
+                        <label class="color-label orchid-pink" for="orchid-pink"></label>
+                        <input class="color-input" type="radio" name="color" id="orchid-pink" value="orchid-pink">
+
+                        <label class="color-label orchid-red" for="orchid-red"></label>
+                        <input class="color-input" type="radio" name="color" id="orchid-red" value="orchid-red">
+
+                        <label class="color-label orchid-blue" for="orchid-blue"></label>
+                        <input class="color-input" type="radio" name="color" id="orchid-blue" value="orchid-blue">
+
+
+                    </div>
+                    <!-- /.colors -->
+
+                    <span class="card-label">Количество:</span>
+
+                    <div class="counter-group d-flex justify-content-center align-items-center">
+                        <button class="counter-button">-</button>
+                        <input type="text" class="counter-input" value="1"></input>
+                        <button class="counter-button">+</button>
+                    </div>
+                    <!-- /.counter-group -->
+
+                    <button class="button card-button">В корзину</button>
+                </div>
+            </div>
+            <!-- /.col-md-3 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card">
+                    <img src="img/flowers/flower-6.png" alt="iris" class="card-image">
+                    <h3 class="card-title">Ирисы</h3>
+                    <span class="card-label">Выберите цвет:</span>
+
+                    <div class="colors d-flex align-items-center justify-content-between">
+                        <label class="color-label iris-white" for="iris-white"></label>
+                        <input class="color-input" type="radio" name="color" id="iris-white" value="iris-white">
+
+                        <label class="color-label iris-beige" for="iris-beige"></label>
+                        <input class="color-input" type="radio" name="color" id="iris-beige" value="iris-beige">
+
+                        <label class="color-label iris-pink" for="iris-pink"></label>
+                        <input class="color-input" type="radio" name="color" id="iris-pink" value="iris-pink">
+
+                        <label class="color-label iris-red" for="iris-red"></label>
+                        <input class="color-input" type="radio" name="color" id="iris-red" value="iris-red">
+
+                        <label class="color-label iris-blue" for="iris-blue"></label>
+                        <input class="color-input" type="radio" name="color" id="iris-blue" value="iris-blue">
+
+
+                    </div>
+                    <!-- /.colors -->
+
+                    <span class="card-label">Количество:</span>
+
+                    <div class="counter-group d-flex justify-content-center align-items-center">
+                        <button class="counter-button">-</button>
+                        <input type="text" class="counter-input" value="1"></input>
+                        <button class="counter-button">+</button>
+                    </div>
+                    <!-- /.counter-group -->
+
+                    <button class="button card-button">В корзину</button>
+                </div>
+            </div>
+            <!-- /.col-md-3 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card">
+                    <img src="img/flowers/hrisontemum.png.crdownload" alt="hrisontemum" class="card-image">
+                    <h3 class="card-title">Хризантемы</h3>
+                    <span class="card-label">Выберите цвет:</span>
+
+                    <div class="colors d-flex align-items-center justify-content-between">
+                        <label class="color-label hrisontemum-white" for="hrisontemum-white"></label>
+                        <input class="color-input" type="radio" name="color" id="hrisontemum-white" value="hrisontemum-white">
+
+                        <label class="color-label hrisontemum-beige" for="hrisontemum-beige"></label>
+                        <input class="color-input" type="radio" name="color" id="hrisontemum-beige" value="hrisontemum-beige">
+
+                        <label class="color-label hrisontemum-pink" for="hrisontemum-pink"></label>
+                        <input class="color-input" type="radio" name="color" id="hrisontemum-pink" value="hrisontemum-pink">
+
+                        <label class="color-label hrisontemum-red" for="hrisontemum-red"></label>
+                        <input class="color-input" type="radio" name="color" id="hrisontemum-red" value="hrisontemum-red">
+
+                        <label class="color-label hrisontemum-blue" for="hrisontemum-blue"></label>
+                        <input class="color-input" type="radio" name="color" id="hrisontemum-blue" value="hrisontemum-blue">
+
+
+                    </div>
+                    <!-- /.colors -->
+
+                    <span class="card-label">Количество:</span>
+
+                    <div class="counter-group d-flex justify-content-center align-items-center">
+                        <button class="counter-button">-</button>
+                        <input type="text" class="counter-input" value="1"></input>
+                        <button class="counter-button">+</button>
+                    </div>
+                    <!-- /.counter-group -->
+
+                    <button class="button card-button">В корзину</button>
+                </div>
+            </div>
+            <!-- /.col-md-3 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card">
+                    <img src="img/flowers/chamomile.png" alt="chamomile" class="card-image">
+                    <h3 class="card-title">Ромашки</h3>
+                    <span class="card-label">Выберите цвет:</span>
+
+                    <div class="colors d-flex align-items-center justify-content-between">
+                        <label class="color-label chamomile-white" for="chamomile-white"></label>
+                        <input class="color-input" type="radio" name="color" id="chamomile-white" value="chamomile-white">
+
+                        <label class="color-label chamomile-beige" for="chamomile-beige"></label>
+                        <input class="color-input" type="radio" name="color" id="chamomile-beige" value="chamomile-beige">
+
+                        <label class="color-label chamomile-pink" for="chamomile-pink"></label>
+                        <input class="color-input" type="radio" name="color" id="chamomile-pink" value="chamomile-pink">
+
+                        <label class="color-label chamomile-red" for="chamomile-red"></label>
+                        <input class="color-input" type="radio" name="color" id="chamomile-red" value="chamomile-red">
+
+                        <label class="color-label chamomile-blue" for="chamomile-blue"></label>
+                        <input class="color-input" type="radio" name="color" id="chamomile-blue" value="chamomile-blue">
+
+
+                    </div>
+                    <!-- /.colors -->
+
+                    <span class="card-label">Количество:</span>
+
+                    <div class="counter-group d-flex justify-content-center align-items-center">
+                        <button class="counter-button">-</button>
+                        <input type="text" class="counter-input" value="1"></input>
+                        <button class="counter-button">+</button>
+                    </div>
+                    <!-- /.counter-group -->
+
+                    <button class="button card-button">В корзину</button>
+                </div>
+            </div>
+            <!-- /.col-md-3 -->
+
+        </div>
+        <!-- /.row -->
+
+        <a href="#" class="more">Все цветы</a>
+    </div>
+</section>
+
+<section class="offer">
+    <div class="container">
+        <h2 class="section-title">Остались вопросы?</h2>
+        <a href="#" class="offer-link">Закажите звонок нашего флориста</a>
+        <span class="offer-label">или позвоните по телефону</span>
+        <a href="tel:+78006548745" class="offer-phone">8 (800) 654-87-45</a>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container footer-bg">
+        <div class="row py-5">
+            <div class="col-md-6 mb-5 mb-lg-0">
+                <nav>
+                    <ul class="footer-menu d-flex">
+                        <li class="footer-menu-item">
+                            <a href="#" class="footer-menu-link">Доставка</a>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a href="#" class="footer-menu-link">Оплата</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="social">
+                    Присоединяйтесь к нам: <a href="https://vk.com" class="social-link">
+                    <img src="./img/vk.png" alt="vk">
+                </a>
+                </div>
+            </div>
+            <!-- /.col-md-6 -->
+            <div class="col-md-6 footer-wrapper">
+
+                <span class="footer-label">Отдел обслуживания клиентов</span>
+                <a href="tel:+78006548745" class="footer-phone">8 (800) 654-87-45</a>
+                <span class="footer-label">Ежедневно, круглосуточно</span>
+
+               </div>
+            <!-- /.col-md-6 -->
+        </div>
+    </div>
+    <!-- /.container -->
+</footer>
+
+<div class="footer-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 mb-3 mb-md-0">
+                <a href="#"><img src="./img/logo_footer.png" alt="Flowers" class="footer-logo"></a>
+            </div>
+            <!-- /.col-md-3 -->
+            <div class="col-md-6 mb-3 mb-md-0">
+                 <span class="footer-description">Интернет-магазин <br>
+                        цветов с доставкой <br>
+                        по всей <span class="text-color-red">России</span>
+                 </span>
+            </div>
+            <!-- /.col-md-6 -->
+            <div class="col-md-3">
+                <a href="https://vk.com/p.ageykin" class="a-gradient">
+                    Разработка сайта: Ageykin P
+                </a>
+            </div>
+            <!-- /.col-md-3 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</div>
+
+<div class="modal" id="modal">
+    <h2 class="modal-title">Закажите обратный звонок</h2>
+    <form action="#">
+        <input type="tel" placeholder="+7 (___) __-__-____" class="modal-input">
+        <button class="button modal-button">Перезвоните мне</button>
+    </form>
+</div>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+<script src="./js/main.js"></script>
+</body>
+</html>
