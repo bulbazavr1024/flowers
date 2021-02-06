@@ -1,3 +1,10 @@
-# Git and Github Course
+# flowers - учебный проект
+### Выполнил проект: Агейкин П.
 
-Crash course for Git
+## Технологии:
+ - HTML
+ - CSS
+ - Bootstrap
+ - jQuery
+ - Fancybox
+ - Swiper Slider JS
