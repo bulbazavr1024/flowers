@@ -38,6 +38,19 @@ body {
     padding-top: 50px;
 }
 
+.decor-flower-top {
+    display: none;
+}
+
+.decor-flower-left {
+    display: none
+;
+}
+
+.decor-flower-right {
+   display: none;
+}
+
 .text-color-red {
     color: #ff3469;
     font-family: "Gotham Pro Medium";
@@ -551,6 +564,7 @@ html:root {
         text-align: center;
     }
 
+
 }
 
 .modal {
@@ -576,6 +590,43 @@ html:root {
 @media (max-width: 576px) {
     .footer-wrapper {
         text-align: left;
+    }
+    .decor-flower-left {
+        position: absolute;
+        top: 60px;
+        left: 50px;
+    }
+
+    .decor-flower-right {
+        position: absolute;
+        top: 200px;
+        right: 50px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .decor-flower-top {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 1200px;
+    }
+
+    .decor-flower-left {
+        display: block;
+        position: absolute;
+        top: 200px;
+        left: 200px;
+
+    }
+
+    .decor-flower-right {
+        display: block;
+        position: absolute;
+        top: 700px;
+        right: 200px;
+
     }
 }
 
